@@ -1,6 +1,6 @@
-# Group 2 Cloud Computing Project
+# VivoStream: Cloud Computing Project (Group 2)
 
-Group members:
+Group members: <br />
 Denique Gopaul 	815006348 <br />
 Reece Mungal	815007816 <br />
 Matthew Forbes	816117464 <br />
