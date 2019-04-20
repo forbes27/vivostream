@@ -1,0 +1,26 @@
+Group 2 Installation Instructions:
+
+Install postgreSQL client on the VM
+--------------------------------------------
+sudo apt install postgresql-client-common
+sudo apt install postgresql-client
+
+
+Run appstack.yml to deploy the CloudFormation
+--------------------------------------------
+
+
+Run build_table SQL file to build tables in the assignment1 directory
+See code below.
+(Change the host field to the RDS endpoint)
+--------------------------------------------
+psql "dbname='dreamteam_db' user='adminuser' password='password123' host='gd18vzstqbz7azp.cnuipuiqebbi.us-east-1.rds.amazonaws.com' port='5432'" -f build_table.sql
+
+
+Change the DB_HOST env variable to the RDS endpoint
+Run application.yml to deploy the application on the EC2 public IP addres
+(Change the host field to the EC2 public IP)
+--------------------------------------------
+docker-compose -H tcp://3.83.167.51:2375 -f application.yml up -d
+
+

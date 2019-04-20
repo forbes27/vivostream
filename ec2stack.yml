@@ -3,7 +3,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0de53d8956e8dcf80 #this image id is for us-east-1
+      ImageId: ami-0de53d8956e8dcf80 #first tier
       KeyName: Group2Key # generic keypair name
       SecurityGroups:
         - !Ref AppNodeSG #references the AppNodeSg section

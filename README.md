@@ -1,3 +1,9 @@
-# Simple CRUD app using Flask
+# Group 2 Cloud Computing Project
 
-A simple CRUD (Create, Read, Update, Delete) employee management web app using Flask + MySQL. This is not my original work. I follow a tutorial [here](https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one)
+Group members:
+Denique Gopaul
+Reece Mungal
+Matthew Forbes
+Avinash Kissoon
+Shemar Inverary
+

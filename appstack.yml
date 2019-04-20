@@ -5,7 +5,7 @@ Resources:
     Properties:
       InstanceType: t2.micro
       ImageId: ami-0a313d6098716f372
-      KeyName: G2
+      KeyName: Group2Key
       SecurityGroups:
         - !Ref AppNodeSG
       UserData: !Base64 |
