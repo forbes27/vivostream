@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    image: shemarinv/project
+    ports:
+      - "80:5000"
+    environment:
+      DB_USER: adminuser
+      DB_PASSWORD: password123
+      DB_NAME: dreamteam_db
+      DB_HOST: gd18vzstqbz7azp.cnuipuiqebbi.us-east-1.rds.amazonaws.com
+      SECRET_KEY: p9Bv<3Eid9%$i01

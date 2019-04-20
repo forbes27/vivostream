@@ -1,0 +1,26 @@
+version: "3"
+services:
+  postdb:
+    image: shemarinv/postgres
+    container_name: postdb
+    environment:
+      - POSTGRES_DB dreamteam_db
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+  app:
+    image: shemarinv/project
+    environment:
+      DB_USER: adminuser
+      DB_PASSWORD: password123
+      DB_NAME: dreamteam_db
+      DB_HOST: gd18vzstqbz7azp.cnuipuiqebbi.us-east-1.rds.amazonaws.com
+      SECRET_KEY: p9Bv<3Eid9%$i01
+    command: python run.py
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/app
+  
+

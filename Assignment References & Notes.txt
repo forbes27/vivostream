@@ -1,0 +1,11 @@
+App from: https://github.com/luong-komorebi/Simple-CRUD-Flask-App
+
+
+References:
+
+	http://flask.pocoo.org/docs/1.0/quickstart/#quickstart
+	
+	https://scotch.io/tutorials/getting-started-with-flask-a-python-microframework
+	
+	https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one
+

@@ -1,0 +1,35 @@
+<!-- app/templates/home/dashboard.html -->
+
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block body %}
+<div class="intro-subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="intro-subscribe2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<table style="margin: auto;
+width: 50%;">
+        <tr>
+                <td><h3><input type="submit" name="1button" value="1 Game" style="color:blue; background-color: black"></h3></td>
+                    <td><h3><input type="submit" name="2button" value="2-5 Games" style="color:green; background-color: black"></h3></td>
+                        <td><h3><input type="submit" name="3button" value="6-10 Games" style="color:red; background-color: black"></h3></td>
+                            <td><h3><input type="submit" name="goldbutton" value="Gold" style="color:gold; background-color: black"></h3></td>
+</tr>
+</table>
+{% endblock %}
