@@ -1,14 +1,5 @@
 version: "3"
 services:
-  postdb:
-    image: shemarinv/postgres
-    container_name: postdb
-    environment:
-      - POSTGRES_DB dreamteam_db
-    ports:
-      - 5432:5432
-    volumes:
-      - ./db:/docker-entrypoint-initdb.d/
   app:
     image: shemarinv/project
     environment:

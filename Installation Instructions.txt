@@ -24,3 +24,7 @@ Run application.yml to deploy the application on the EC2 public IP addres
 docker-compose -H tcp://3.83.167.51:2375 -f application.yml up -d
 
 
+Notes:
+Docker-compose.yml can be run locally to see create.sh generated when a user registers.
+Also, when a user is created and they change their subscription, a delete.sh file would also be generated.
+These are set to run the ec2stack1.yml - ec2stack4.yml files
