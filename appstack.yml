@@ -45,7 +45,7 @@ Resources:
     Properties:
       DBName: "dreamteam_db"
       Engine: postgres
-      MasterUsername: user
+      MasterUsername: adminuser
       MasterUserPassword: password123
       DBInstanceClass: db.t2.micro
       AllocatedStorage: '5'
